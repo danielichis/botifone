@@ -23,7 +23,7 @@ def get_cookies():
     'as_rumid': coookies['as_rumid'],
     'as_atb': coookies['as_atb'],
     'shld_bt_m': coookies['shld_bt_m'],
-    's_sq': coookies['s_sq'],
+    #'s_sq': coookies['s_sq'],
               }
     with open('src/appleEndpoints/cookiesHomeSend.json', 'w') as f:
         json.dump(cookies, f, indent=4)
@@ -31,7 +31,7 @@ def get_cookies():
     
 
 def get_headers():
-    with open('src/appleEndpoints/headers.json', 'r') as f:
+    with open('src/appleEndpoints/headers_simple.json', 'r') as f:
         headers = json.load(f)
     with open('src/appleEndpoints/headersSend.json', 'w') as f:
         json.dump(headers, f, indent=4)
@@ -45,6 +45,6 @@ while True:
     cookies=cookies,
     headers=headers,
     )
-    random_between_5_and_10 = random.randint(5, 10)  # Espera entre 5 y 10 segundos
+    random_between_5_and_10 = random.randint(1,2)  # Espera entre 5 y 10 segundos
     print(response.status_code)
     time.sleep(random_between_5_and_10)
