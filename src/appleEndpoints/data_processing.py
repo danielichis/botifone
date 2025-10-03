@@ -38,7 +38,7 @@ def check_availability(content: Dict[str, Any], config_data: Dict[str, Any], pro
         if product_code in store.get('partsAvailability', {}):
             availability_info = store['partsAvailability'][product_code]
             pickup_quote = availability_info.get('pickupSearchQuote', '')
-            
+            print(pickup_quote)
             # Check if product is available today or tomorrow
             if pickup_quote in ["Available Today", "Available Tomorrow"]:
                 store_name = store.get('storeName', '')

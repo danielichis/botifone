@@ -13,7 +13,9 @@ import requests
 from botifone.src.appleEndpoints.data_processing import check_availability
 from botifone.src.appleEndpoints.avaitability import request_available_iphones
 from botifone.src.appleEndpoints.simple_navigator_final import main
-
+from botifone.src.appleEndpoints.mail_notification import send_availability_notification
+from botifone.src.appleEndpoints.data_processing import register_available_stores, record_iphone_availability
+    
 def read_config_data():
     with open(r'botifone\src\input\config_data.json', 'r') as f:
         config_data = json.load(f)
@@ -31,8 +33,7 @@ def get_available_iphones_and_update_sheets():
     - Records availability status for each iPhone
     - Records store information when iPhones are available
     """
-    from botifone.src.appleEndpoints.data_processing import register_available_stores, record_iphone_availability
-    
+
     config_data = read_config_data()
     all_products = config_data.get("configData", {}).get("products", [])
     zip_codes = config_data.get("configData", {}).get("zipcodes", [])
@@ -41,62 +42,73 @@ def get_available_iphones_and_update_sheets():
     combinations = [(product, str(zip_code)) for product in all_products for zip_code in zip_codes]
     
     # Get initial cookies and headers
-    main()
-    
-    for product, zip_code in combinations:
-        product_code = product['code']
-        print(f"\nChecking availability for {product['name']} in {zip_code}...")
-        
-        # Try to get availability data
-        response_data = request_available_iphones(product_code, zip_code)
-        
-        if response_data:
-            # Check store availability
-            available_stores = check_availability(
-                content=response_data,
-                config_data=config_data.get("configData", {}),
-                product_info={"code": product_code},
-                zip_code=zip_code
-            )
+    #main()
+    while True:
+        for product, zip_code in combinations:
+            product_code = product['code']
+            print(f"\nChecking availability for {product['name']} in {zip_code}...")
             
-            is_available = len(available_stores) > 0
+            # Try to get availability data
+            response_data = request_available_iphones(product_code, zip_code)
             
-            # Record iPhone availability status
-            availability_recorded = record_iphone_availability(
-                product_info=product,  # Contains name, price, etc.
-                zip_code=zip_code,
-                is_available=is_available
-            )
-            
-            if availability_recorded:
-                print(f"✓ Recorded availability status for {product['name']}")
-            else:
-                print(f"✗ Failed to record availability status for {product['name']}")
-            
-            # If available in any store, register the stores
-            if available_stores:
-                print(f"Product {product['name']} available in {len(available_stores)} stores for ZIP code {zip_code}:")
-                for store in available_stores:
-                    print(f"- {store.get('storeName', 'Unknown Store')}")
+            if response_data:
+                # Check store availability
+                available_stores = check_availability(
+                    content=response_data,
+                    config_data=config_data.get("configData", {}),
+                    product_info={"code": product_code},
+                    zip_code=zip_code
+                )
                 
-                # Register available stores in Google Sheets
-                stores_recorded = register_available_stores(available_stores, zip_code)
-                if stores_recorded:
-                    print("✓ Successfully registered available stores")
+                is_available = len(available_stores) > 0
+                
+                # Record iPhone availability status
+                availability_recorded = record_iphone_availability(
+                    product_info=product,  # Contains name, price, etc.
+                    zip_code=zip_code,
+                    is_available=is_available
+                )
+                if is_available:
+                    #function to send notificaiton mail
+                    print("Sending availability notification email...")
+                    send_availability_notification(
+                        is_available=True,
+                        product_info=product,
+                        store_info=available_stores[0] if available_stores else None,
+                        zip_code=zip_code
+                    )
+                
+                if availability_recorded:
+                    print(f"✓ Recorded availability status for {product['name']}")
                 else:
-                    print("✗ Failed to register available stores")
+                    print(f"✗ Failed to record availability status for {product['name']}")
+                
+                # If available in any store, register the stores
+                if available_stores:
+                    print(f"Product {product['name']} available in {len(available_stores)} stores for ZIP code {zip_code}:")
+                    for store in available_stores:
+                        print(f"- {store.get('storeName', 'Unknown Store')}")
+                    
+                    # Register available stores in Google Sheets
+                    stores_recorded = register_available_stores(available_stores, zip_code)
+                    if stores_recorded:
+                        print("✓ Successfully registered available stores")
+                    else:
+                        print("✗ Failed to register available stores")
+                else:
+                    print(f"Product {product['name']} not available in preferred stores for ZIP code {zip_code}")
             else:
-                print(f"Product {product['name']} not available in preferred stores for ZIP code {zip_code}")
-        else:
-            print(f"Request failed for {product['name']} in {zip_code}. Getting new cookies and headers...")
-            # Record the unavailability even when request fails
-            record_iphone_availability(
-                product_info=product,
-                zip_code=zip_code,
-                is_available=False
-            )
-            main()  # Refresh cookies and headers
-
+                break
+                print(f"Request failed for {product['name']} in {zip_code}. Getting new cookies and headers...")
+                # Record the unavailability even when request fails
+                record_iphone_availability(
+                    product_info=product,
+                    zip_code=zip_code,
+                    is_available=False
+                )
+                print("Refreshing cookies and headers...")
+                main()  # Refresh cookies and headers
+                print("Retrying the request...")
 
 
 

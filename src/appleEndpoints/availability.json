@@ -7,314 +7,6 @@
             "pickupMessage": {
                 "stores": [
                     {
-                        "storeEmail": "brickellcitycentre@apple.com",
-                        "storeName": "Brickell City Centre",
-                        "reservationUrl": "http://www.apple.com/retail/brickellcitycentre",
-                        "makeReservationUrl": "http://www.apple.com/retail/brickellcitycentre",
-                        "state": "FL",
-                        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R623.png?resize=828:*&output-format=jpg",
-                        "country": "US",
-                        "city": "Miami",
-                        "storeNumber": "R623",
-                        "partsAvailability": {
-                            "MFXK4LL/A": {
-                                "storePickEligible": true,
-                                "pickupSearchQuote": "Currently unavailable",
-                                "partNumber": "MFXK4LL/A",
-                                "pickupDisplay": "unavailable",
-                                "pickupType": "In-Store Pickup",
-                                "messageTypes": {
-                                    "compact": {
-                                        "storeSearchEnabled": true,
-                                        "storePickupLabel": "Pickup:",
-                                        "storeSelectionEnabled": false,
-                                        "storePickupQuote": "Currently unavailable",
-                                        "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
-                                    },
-                                    "regular": {
-                                        "storeSearchEnabled": true,
-                                        "storePickupLabel": "Pickup:",
-                                        "storeSelectionEnabled": false,
-                                        "storePickupQuote": "Currently unavailable at Apple Brickell City Centre",
-                                        "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Brickell City Centre<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
-                                        "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
-                                    }
-                                },
-                                "buyability": {
-                                    "isBuyable": false,
-                                    "reason": "NOT_AVAILABLE_FOR_PICKUP",
-                                    "commitCodeId": 300,
-                                    "inventory": 0
-                                }
-                            }
-                        },
-                        "phoneNumber": "786-8434350",
-                        "pickupTypeAvailabilityText": "In-Store Pickup available at this location.",
-                        "address": {
-                            "address": "Apple Brickell City Centre",
-                            "address2": "701 S. Miami Avenue",
-                            "postalCode": "33130"
-                        },
-                        "hoursUrl": "http://www.apple.com/retail/brickellcitycentre",
-                        "directionsUrl": "http://www.apple.com/retail/brickellcitycentre",
-                        "storeHours": {
-                            "storeHoursText": "Store Hours",
-                            "bopisPickupDays": "Days",
-                            "bopisPickupHours": "Hours",
-                            "hours": [
-                                {
-                                    "storeTimings": "11:00 AM-8:00 PM",
-                                    "storeDays": "Sun:"
-                                },
-                                {
-                                    "storeTimings": "10:00 AM-10:00 PM",
-                                    "storeDays": "Mon-Sat:"
-                                }
-                            ]
-                        },
-                        "storelatitude": 25.7667,
-                        "storelongitude": -80.1935,
-                        "storedistance": 0.39,
-                        "storeDistanceWithUnit": "0.39 mi",
-                        "storeDistanceVoText": "0.39 mi from 33130",
-                        "retailStore": {
-                            "storeNumber": "R623",
-                            "storeUniqueId": "R623",
-                            "name": "Brickell City Centre",
-                            "storeTypeKey": "1",
-                            "storeSubTypeKey": "0",
-                            "storeType": "APPLESTORE_DEFAULT",
-                            "phoneNumber": "786-8434350",
-                            "email": "brickellcitycentre@apple.com",
-                            "latitude": 25.7667,
-                            "longitude": -80.1935,
-                            "address": {
-                                "companyName": "Apple Brickell City Centre",
-                                "street": "701 S. Miami Avenue",
-                                "city": "Miami",
-                                "postalCode": "33130",
-                                "state": "FL",
-                                "countryCode": "US",
-                                "daytimePhone": "786-8434350",
-                                "uuid": "aa48fdad-3d4d-4f1f-9f90-ef978eb36a64",
-                                "languageCode": "US-EN",
-                                "type": "SHIPPING",
-                                "primaryAddress": false,
-                                "businessAddress": false,
-                                "verificationState": "UN_VERIFIED"
-                            },
-                            "directionsUrl": "http://www.apple.com/retail/brickellcitycentre",
-                            "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R623.png?resize=828:*&output-format=jpg",
-                            "hoursAndInfoUrl": "http://www.apple.com/retail/brickellcitycentre",
-                            "storeHours": [
-                                {
-                                    "storeDays": "Sun",
-                                    "voStoreDays": "Sunday",
-                                    "storeTimings": "11:00 AM-8:00 PM"
-                                },
-                                {
-                                    "storeDays": "Mon-Sat",
-                                    "voStoreDays": "Monday-Saturday",
-                                    "storeTimings": "10:00 AM-10:00 PM"
-                                }
-                            ],
-                            "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R623.png?resize=828:*&output-format=jpg",
-                            "distance": 0.39,
-                            "distanceUnit": "mi",
-                            "distanceWithUnit": "0.39 mi",
-                            "timezone": "America/New_York",
-                            "storeIsActive": true,
-                            "lastUpdated": 0.0,
-                            "lastFetched": 1759517284460,
-                            "dateStamp": "03-Oct-2025",
-                            "distanceSeparator": ".",
-                            "storeHolidayLookAheadWindow": 7,
-                            "storePickupMethodByType": {
-                                "INSTORE": {
-                                    "type": "INSTORE",
-                                    "services": [
-                                        "APU"
-                                    ],
-                                    "typeCoordinate": {
-                                        "lat": 25.7667,
-                                        "lon": -80.1935
-                                    }
-                                }
-                            },
-                            "availableNow": true
-                        },
-                        "storelistnumber": 1,
-                        "storeListNumber": 1,
-                        "pickupOptionsDetails": {
-                            "whatToExpectAtPickup": "<h4 class=\"as-pickupmethods-intro-header\">What to expect at pickup </h4><br /> We\u2019ll email detailed pickup instructions when your order is ready. For new device setup, schedule a free online session with an Apple Specialist.",
-                            "comparePickupOptionsLink": "<a href=\"https://www.apple.com/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">Learn more about delivery <br />and pickup<span class=\"icon icon-after icon-external\"></span><span class=\"visuallyhidden\">(Opens in a new window)</span></a>",
-                            "pickupOptions": [
-                                {
-                                    "pickupOptionTitle": "In-Store",
-                                    "pickupOptionDescription": "Pick up your online order. You may be able to get setup help and shop for accessories.",
-                                    "index": 1
-                                }
-                            ]
-                        },
-                        "rank": 1
-                    },
-                    {
-                        "storeEmail": "miamiworldcenter@apple.com",
-                        "storeName": "Miami Worldcenter",
-                        "reservationUrl": "http://www.apple.com/miamiworldcenter/",
-                        "makeReservationUrl": "http://www.apple.com/miamiworldcenter/",
-                        "state": "FL",
-                        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R752.png?resize=828:*&output-format=jpg",
-                        "country": "US",
-                        "city": "Miami",
-                        "storeNumber": "R752",
-                        "partsAvailability": {
-                            "MFXK4LL/A": {
-                                "storePickEligible": true,
-                                "pickupSearchQuote": "Currently unavailable",
-                                "partNumber": "MFXK4LL/A",
-                                "pickupDisplay": "unavailable",
-                                "pickupType": "In-Store Pickup",
-                                "messageTypes": {
-                                    "compact": {
-                                        "storeSearchEnabled": true,
-                                        "storePickupLabel": "Pickup:",
-                                        "storeSelectionEnabled": false,
-                                        "storePickupQuote": "Currently unavailable",
-                                        "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
-                                    },
-                                    "regular": {
-                                        "storeSearchEnabled": true,
-                                        "storePickupLabel": "Pickup:",
-                                        "storeSelectionEnabled": false,
-                                        "storePickupQuote": "Currently unavailable at Apple Miami Worldcenter",
-                                        "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Miami Worldcenter<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
-                                        "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
-                                    }
-                                },
-                                "buyability": {
-                                    "isBuyable": false,
-                                    "reason": "NOT_AVAILABLE_FOR_PICKUP",
-                                    "commitCodeId": 300,
-                                    "inventory": 0
-                                }
-                            }
-                        },
-                        "phoneNumber": "786-9723954",
-                        "pickupTypeAvailabilityText": "In-Store Pickup available at this location.",
-                        "address": {
-                            "address": "Apple Miami Worldcenter",
-                            "address2": "100 NE Eighth Street",
-                            "postalCode": "33132"
-                        },
-                        "hoursUrl": "http://www.apple.com/miamiworldcenter/",
-                        "directionsUrl": "http://www.apple.com/miamiworldcenter/",
-                        "storeHours": {
-                            "storeHoursText": "Store Hours",
-                            "bopisPickupDays": "Days",
-                            "bopisPickupHours": "Hours",
-                            "hours": [
-                                {
-                                    "storeTimings": "10:00 AM-10:00 PM",
-                                    "storeDays": "Mon-Sat:"
-                                },
-                                {
-                                    "storeTimings": "11:00 AM-9:00 PM",
-                                    "storeDays": "Sun:"
-                                }
-                            ]
-                        },
-                        "storelatitude": 25.78162,
-                        "storelongitude": -80.191812,
-                        "storedistance": 0.83,
-                        "storeDistanceWithUnit": "0.83 mi",
-                        "storeDistanceVoText": "0.83 mi from 33132",
-                        "retailStore": {
-                            "storeNumber": "R752",
-                            "storeUniqueId": "R752",
-                            "name": "Miami Worldcenter",
-                            "storeTypeKey": "1",
-                            "storeSubTypeKey": "0",
-                            "storeType": "APPLESTORE_DEFAULT",
-                            "phoneNumber": "786-9723954",
-                            "email": "miamiworldcenter@apple.com",
-                            "latitude": 25.78162,
-                            "longitude": -80.191812,
-                            "address": {
-                                "companyName": "Apple Miami Worldcenter",
-                                "street": "100 NE Eighth Street",
-                                "city": "Miami",
-                                "postalCode": "33132",
-                                "state": "FL",
-                                "countryCode": "US",
-                                "daytimePhone": "786-9723954",
-                                "uuid": "85ac1f0b-3c1e-4452-9b35-db7a755181a0",
-                                "languageCode": "US-EN",
-                                "type": "SHIPPING",
-                                "primaryAddress": false,
-                                "businessAddress": false,
-                                "verificationState": "UN_VERIFIED"
-                            },
-                            "directionsUrl": "http://www.apple.com/miamiworldcenter/",
-                            "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R752.png?resize=828:*&output-format=jpg",
-                            "hoursAndInfoUrl": "http://www.apple.com/miamiworldcenter/",
-                            "storeHours": [
-                                {
-                                    "storeDays": "Mon-Sat",
-                                    "voStoreDays": "Monday-Saturday",
-                                    "storeTimings": "10:00 AM-10:00 PM"
-                                },
-                                {
-                                    "storeDays": "Sun",
-                                    "voStoreDays": "Sunday",
-                                    "storeTimings": "11:00 AM-9:00 PM"
-                                }
-                            ],
-                            "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R752.png?resize=828:*&output-format=jpg",
-                            "distance": 0.83,
-                            "distanceUnit": "mi",
-                            "distanceWithUnit": "0.83 mi",
-                            "timezone": "America/New_York",
-                            "storeIsActive": true,
-                            "lastUpdated": 0.0,
-                            "lastFetched": 1759517284460,
-                            "dateStamp": "03-Oct-2025",
-                            "distanceSeparator": ".",
-                            "storeHolidayLookAheadWindow": 7,
-                            "storePickupMethodByType": {
-                                "INSTORE": {
-                                    "type": "INSTORE",
-                                    "services": [
-                                        "APU"
-                                    ],
-                                    "typeCoordinate": {
-                                        "lat": 25.78162,
-                                        "lon": -80.191812
-                                    }
-                                }
-                            },
-                            "availableNow": true
-                        },
-                        "storelistnumber": 2,
-                        "storeListNumber": 2,
-                        "pickupOptionsDetails": {
-                            "whatToExpectAtPickup": "<h4 class=\"as-pickupmethods-intro-header\">What to expect at pickup </h4><br /> We\u2019ll email detailed pickup instructions when your order is ready. For new device setup, schedule a free online session with an Apple Specialist.",
-                            "comparePickupOptionsLink": "<a href=\"https://www.apple.com/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">Learn more about delivery <br />and pickup<span class=\"icon icon-after icon-external\"></span><span class=\"visuallyhidden\">(Opens in a new window)</span></a>",
-                            "pickupOptions": [
-                                {
-                                    "pickupOptionTitle": "In-Store",
-                                    "pickupOptionDescription": "Pick up your online order. You may be able to get setup help and shop for accessories.",
-                                    "index": 1
-                                }
-                            ]
-                        },
-                        "rank": 2
-                    },
-                    {
                         "storeEmail": "lincolnroad@apple.com",
                         "storeName": "Lincoln Road",
                         "reservationUrl": "http://www.apple.com/retail/lincolnroad",
@@ -325,10 +17,10 @@
                         "city": "Miami Beach",
                         "storeNumber": "R115",
                         "partsAvailability": {
-                            "MFXK4LL/A": {
+                            "MFXH4LL/A": {
                                 "storePickEligible": true,
                                 "pickupSearchQuote": "Currently unavailable",
-                                "partNumber": "MFXK4LL/A",
+                                "partNumber": "MFXH4LL/A",
                                 "pickupDisplay": "unavailable",
                                 "pickupType": "In-Store Pickup",
                                 "messageTypes": {
@@ -338,7 +30,7 @@
                                         "storeSelectionEnabled": false,
                                         "storePickupQuote": "Currently unavailable",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     },
                                     "regular": {
                                         "storeSearchEnabled": true,
@@ -347,7 +39,7 @@
                                         "storePickupQuote": "Currently unavailable at Apple Lincoln Road",
                                         "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Lincoln Road<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     }
                                 },
                                 "buyability": {
@@ -384,9 +76,9 @@
                         },
                         "storelatitude": 25.79102,
                         "storelongitude": -80.139364,
-                        "storedistance": 3.88,
-                        "storeDistanceWithUnit": "3.88 mi",
-                        "storeDistanceVoText": "3.88 mi from 33139",
+                        "storedistance": 3.0,
+                        "storeDistanceWithUnit": "3.0 mi",
+                        "storeDistanceVoText": "3.0 mi from 33139",
                         "retailStore": {
                             "storeNumber": "R115",
                             "storeUniqueId": "R115",
@@ -406,7 +98,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "305-421 0400",
-                                "uuid": "57c0278a-94fe-41b9-8bea-475b9d12b5e8",
+                                "uuid": "03f19f5f-f922-40a0-9534-a5b07a5f127e",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -429,13 +121,13 @@
                                 }
                             ],
                             "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R115.png?resize=828:*&output-format=jpg",
-                            "distance": 3.88,
+                            "distance": 3.0,
                             "distanceUnit": "mi",
-                            "distanceWithUnit": "3.88 mi",
+                            "distanceWithUnit": "3.0 mi",
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759517284460,
+                            "lastFetched": 1759534186962,
                             "dateStamp": "03-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
@@ -446,8 +138,316 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lat": 25.79102,
-                                        "lon": -80.139364
+                                        "lon": -80.139364,
+                                        "lat": 25.79102
+                                    }
+                                }
+                            },
+                            "availableNow": true
+                        },
+                        "storelistnumber": 1,
+                        "storeListNumber": 1,
+                        "pickupOptionsDetails": {
+                            "whatToExpectAtPickup": "<h4 class=\"as-pickupmethods-intro-header\">What to expect at pickup </h4><br /> We\u2019ll email detailed pickup instructions when your order is ready. For new device setup, schedule a free online session with an Apple Specialist.",
+                            "comparePickupOptionsLink": "<a href=\"https://www.apple.com/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">Learn more about delivery <br />and pickup<span class=\"icon icon-after icon-external\"></span><span class=\"visuallyhidden\">(Opens in a new window)</span></a>",
+                            "pickupOptions": [
+                                {
+                                    "pickupOptionTitle": "In-Store",
+                                    "pickupOptionDescription": "Pick up your online order. You may be able to get setup help and shop for accessories.",
+                                    "index": 1
+                                }
+                            ]
+                        },
+                        "rank": 1
+                    },
+                    {
+                        "storeEmail": "miamiworldcenter@apple.com",
+                        "storeName": "Miami Worldcenter",
+                        "reservationUrl": "http://www.apple.com/miamiworldcenter/",
+                        "makeReservationUrl": "http://www.apple.com/miamiworldcenter/",
+                        "state": "FL",
+                        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R752.png?resize=828:*&output-format=jpg",
+                        "country": "US",
+                        "city": "Miami",
+                        "storeNumber": "R752",
+                        "partsAvailability": {
+                            "MFXH4LL/A": {
+                                "storePickEligible": true,
+                                "pickupSearchQuote": "Currently unavailable",
+                                "partNumber": "MFXH4LL/A",
+                                "pickupDisplay": "unavailable",
+                                "pickupType": "In-Store Pickup",
+                                "messageTypes": {
+                                    "compact": {
+                                        "storeSearchEnabled": true,
+                                        "storePickupLabel": "Pickup:",
+                                        "storeSelectionEnabled": false,
+                                        "storePickupQuote": "Currently unavailable",
+                                        "storePickupLinkText": "Check availability",
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
+                                    },
+                                    "regular": {
+                                        "storeSearchEnabled": true,
+                                        "storePickupLabel": "Pickup:",
+                                        "storeSelectionEnabled": false,
+                                        "storePickupQuote": "Currently unavailable at Apple Miami Worldcenter",
+                                        "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Miami Worldcenter<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
+                                        "storePickupLinkText": "Check availability",
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
+                                    }
+                                },
+                                "buyability": {
+                                    "isBuyable": false,
+                                    "reason": "NOT_AVAILABLE_FOR_PICKUP",
+                                    "commitCodeId": 300,
+                                    "inventory": 0
+                                }
+                            }
+                        },
+                        "phoneNumber": "786-9723954",
+                        "pickupTypeAvailabilityText": "In-Store Pickup available at this location.",
+                        "address": {
+                            "address": "Apple Miami Worldcenter",
+                            "address2": "100 NE Eighth Street",
+                            "postalCode": "33132"
+                        },
+                        "hoursUrl": "http://www.apple.com/miamiworldcenter/",
+                        "directionsUrl": "http://www.apple.com/miamiworldcenter/",
+                        "storeHours": {
+                            "storeHoursText": "Store Hours",
+                            "bopisPickupDays": "Days",
+                            "bopisPickupHours": "Hours",
+                            "hours": [
+                                {
+                                    "storeTimings": "10:00 AM-10:00 PM",
+                                    "storeDays": "Mon-Sat:"
+                                },
+                                {
+                                    "storeTimings": "11:00 AM-9:00 PM",
+                                    "storeDays": "Sun:"
+                                }
+                            ]
+                        },
+                        "storelatitude": 25.78162,
+                        "storelongitude": -80.191812,
+                        "storedistance": 5.62,
+                        "storeDistanceWithUnit": "5.62 mi",
+                        "storeDistanceVoText": "5.62 mi from 33132",
+                        "retailStore": {
+                            "storeNumber": "R752",
+                            "storeUniqueId": "R752",
+                            "name": "Miami Worldcenter",
+                            "storeTypeKey": "1",
+                            "storeSubTypeKey": "0",
+                            "storeType": "APPLESTORE_DEFAULT",
+                            "phoneNumber": "786-9723954",
+                            "email": "miamiworldcenter@apple.com",
+                            "latitude": 25.78162,
+                            "longitude": -80.191812,
+                            "address": {
+                                "companyName": "Apple Miami Worldcenter",
+                                "street": "100 NE Eighth Street",
+                                "city": "Miami",
+                                "postalCode": "33132",
+                                "state": "FL",
+                                "countryCode": "US",
+                                "daytimePhone": "786-9723954",
+                                "uuid": "bd08eecf-26db-4580-87af-3174fc38d18b",
+                                "languageCode": "US-EN",
+                                "type": "SHIPPING",
+                                "primaryAddress": false,
+                                "businessAddress": false,
+                                "verificationState": "UN_VERIFIED"
+                            },
+                            "directionsUrl": "http://www.apple.com/miamiworldcenter/",
+                            "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R752.png?resize=828:*&output-format=jpg",
+                            "hoursAndInfoUrl": "http://www.apple.com/miamiworldcenter/",
+                            "storeHours": [
+                                {
+                                    "storeDays": "Mon-Sat",
+                                    "voStoreDays": "Monday-Saturday",
+                                    "storeTimings": "10:00 AM-10:00 PM"
+                                },
+                                {
+                                    "storeDays": "Sun",
+                                    "voStoreDays": "Sunday",
+                                    "storeTimings": "11:00 AM-9:00 PM"
+                                }
+                            ],
+                            "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R752.png?resize=828:*&output-format=jpg",
+                            "distance": 5.62,
+                            "distanceUnit": "mi",
+                            "distanceWithUnit": "5.62 mi",
+                            "timezone": "America/New_York",
+                            "storeIsActive": true,
+                            "lastUpdated": 0.0,
+                            "lastFetched": 1759534186962,
+                            "dateStamp": "03-Oct-2025",
+                            "distanceSeparator": ".",
+                            "storeHolidayLookAheadWindow": 7,
+                            "storePickupMethodByType": {
+                                "INSTORE": {
+                                    "type": "INSTORE",
+                                    "services": [
+                                        "APU"
+                                    ],
+                                    "typeCoordinate": {
+                                        "lon": -80.191812,
+                                        "lat": 25.78162
+                                    }
+                                }
+                            },
+                            "availableNow": true
+                        },
+                        "storelistnumber": 2,
+                        "storeListNumber": 2,
+                        "pickupOptionsDetails": {
+                            "whatToExpectAtPickup": "<h4 class=\"as-pickupmethods-intro-header\">What to expect at pickup </h4><br /> We\u2019ll email detailed pickup instructions when your order is ready. For new device setup, schedule a free online session with an Apple Specialist.",
+                            "comparePickupOptionsLink": "<a href=\"https://www.apple.com/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">Learn more about delivery <br />and pickup<span class=\"icon icon-after icon-external\"></span><span class=\"visuallyhidden\">(Opens in a new window)</span></a>",
+                            "pickupOptions": [
+                                {
+                                    "pickupOptionTitle": "In-Store",
+                                    "pickupOptionDescription": "Pick up your online order. You may be able to get setup help and shop for accessories.",
+                                    "index": 1
+                                }
+                            ]
+                        },
+                        "rank": 2
+                    },
+                    {
+                        "storeEmail": "brickellcitycentre@apple.com",
+                        "storeName": "Brickell City Centre",
+                        "reservationUrl": "http://www.apple.com/retail/brickellcitycentre",
+                        "makeReservationUrl": "http://www.apple.com/retail/brickellcitycentre",
+                        "state": "FL",
+                        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R623.png?resize=828:*&output-format=jpg",
+                        "country": "US",
+                        "city": "Miami",
+                        "storeNumber": "R623",
+                        "partsAvailability": {
+                            "MFXH4LL/A": {
+                                "storePickEligible": true,
+                                "pickupSearchQuote": "Currently unavailable",
+                                "partNumber": "MFXH4LL/A",
+                                "pickupDisplay": "unavailable",
+                                "pickupType": "In-Store Pickup",
+                                "messageTypes": {
+                                    "compact": {
+                                        "storeSearchEnabled": true,
+                                        "storePickupLabel": "Pickup:",
+                                        "storeSelectionEnabled": false,
+                                        "storePickupQuote": "Currently unavailable",
+                                        "storePickupLinkText": "Check availability",
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
+                                    },
+                                    "regular": {
+                                        "storeSearchEnabled": true,
+                                        "storePickupLabel": "Pickup:",
+                                        "storeSelectionEnabled": false,
+                                        "storePickupQuote": "Currently unavailable at Apple Brickell City Centre",
+                                        "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Brickell City Centre<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
+                                        "storePickupLinkText": "Check availability",
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
+                                    }
+                                },
+                                "buyability": {
+                                    "isBuyable": false,
+                                    "reason": "NOT_AVAILABLE_FOR_PICKUP",
+                                    "commitCodeId": 300,
+                                    "inventory": 0
+                                }
+                            }
+                        },
+                        "phoneNumber": "786-8434350",
+                        "pickupTypeAvailabilityText": "In-Store Pickup available at this location.",
+                        "address": {
+                            "address": "Apple Brickell City Centre",
+                            "address2": "701 S. Miami Avenue",
+                            "postalCode": "33130"
+                        },
+                        "hoursUrl": "http://www.apple.com/retail/brickellcitycentre",
+                        "directionsUrl": "http://www.apple.com/retail/brickellcitycentre",
+                        "storeHours": {
+                            "storeHoursText": "Store Hours",
+                            "bopisPickupDays": "Days",
+                            "bopisPickupHours": "Hours",
+                            "hours": [
+                                {
+                                    "storeTimings": "11:00 AM-8:00 PM",
+                                    "storeDays": "Sun:"
+                                },
+                                {
+                                    "storeTimings": "10:00 AM-10:00 PM",
+                                    "storeDays": "Mon-Sat:"
+                                }
+                            ]
+                        },
+                        "storelatitude": 25.7667,
+                        "storelongitude": -80.1935,
+                        "storedistance": 6.37,
+                        "storeDistanceWithUnit": "6.37 mi",
+                        "storeDistanceVoText": "6.37 mi from 33130",
+                        "retailStore": {
+                            "storeNumber": "R623",
+                            "storeUniqueId": "R623",
+                            "name": "Brickell City Centre",
+                            "storeTypeKey": "1",
+                            "storeSubTypeKey": "0",
+                            "storeType": "APPLESTORE_DEFAULT",
+                            "phoneNumber": "786-8434350",
+                            "email": "brickellcitycentre@apple.com",
+                            "latitude": 25.7667,
+                            "longitude": -80.1935,
+                            "address": {
+                                "companyName": "Apple Brickell City Centre",
+                                "street": "701 S. Miami Avenue",
+                                "city": "Miami",
+                                "postalCode": "33130",
+                                "state": "FL",
+                                "countryCode": "US",
+                                "daytimePhone": "786-8434350",
+                                "uuid": "5063f6fe-f829-4935-b79a-c6526712cf48",
+                                "languageCode": "US-EN",
+                                "type": "SHIPPING",
+                                "primaryAddress": false,
+                                "businessAddress": false,
+                                "verificationState": "UN_VERIFIED"
+                            },
+                            "directionsUrl": "http://www.apple.com/retail/brickellcitycentre",
+                            "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R623.png?resize=828:*&output-format=jpg",
+                            "hoursAndInfoUrl": "http://www.apple.com/retail/brickellcitycentre",
+                            "storeHours": [
+                                {
+                                    "storeDays": "Sun",
+                                    "voStoreDays": "Sunday",
+                                    "storeTimings": "11:00 AM-8:00 PM"
+                                },
+                                {
+                                    "storeDays": "Mon-Sat",
+                                    "voStoreDays": "Monday-Saturday",
+                                    "storeTimings": "10:00 AM-10:00 PM"
+                                }
+                            ],
+                            "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R623.png?resize=828:*&output-format=jpg",
+                            "distance": 6.37,
+                            "distanceUnit": "mi",
+                            "distanceWithUnit": "6.37 mi",
+                            "timezone": "America/New_York",
+                            "storeIsActive": true,
+                            "lastUpdated": 0.0,
+                            "lastFetched": 1759534186962,
+                            "dateStamp": "03-Oct-2025",
+                            "distanceSeparator": ".",
+                            "storeHolidayLookAheadWindow": 7,
+                            "storePickupMethodByType": {
+                                "INSTORE": {
+                                    "type": "INSTORE",
+                                    "services": [
+                                        "APU"
+                                    ],
+                                    "typeCoordinate": {
+                                        "lon": -80.1935,
+                                        "lat": 25.7667
                                     }
                                 }
                             },
@@ -469,6 +469,160 @@
                         "rank": 3
                     },
                     {
+                        "storeEmail": "aventura@apple.com",
+                        "storeName": "Aventura",
+                        "reservationUrl": "http://www.apple.com/retail/aventura",
+                        "makeReservationUrl": "http://www.apple.com/retail/aventura",
+                        "state": "FL",
+                        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R087.png?resize=828:*&output-format=jpg",
+                        "country": "US",
+                        "city": "Aventura",
+                        "storeNumber": "R087",
+                        "partsAvailability": {
+                            "MFXH4LL/A": {
+                                "storePickEligible": true,
+                                "pickupSearchQuote": "Currently unavailable",
+                                "partNumber": "MFXH4LL/A",
+                                "pickupDisplay": "unavailable",
+                                "pickupType": "In-Store Pickup",
+                                "messageTypes": {
+                                    "compact": {
+                                        "storeSearchEnabled": true,
+                                        "storePickupLabel": "Pickup:",
+                                        "storeSelectionEnabled": false,
+                                        "storePickupQuote": "Currently unavailable",
+                                        "storePickupLinkText": "Check availability",
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
+                                    },
+                                    "regular": {
+                                        "storeSearchEnabled": true,
+                                        "storePickupLabel": "Pickup:",
+                                        "storeSelectionEnabled": false,
+                                        "storePickupQuote": "Currently unavailable at Apple Aventura",
+                                        "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Aventura<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
+                                        "storePickupLinkText": "Check availability",
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
+                                    }
+                                },
+                                "buyability": {
+                                    "isBuyable": false,
+                                    "reason": "NOT_AVAILABLE_FOR_PICKUP",
+                                    "commitCodeId": 300,
+                                    "inventory": 0
+                                }
+                            }
+                        },
+                        "phoneNumber": "305-914 9826",
+                        "pickupTypeAvailabilityText": "In-Store Pickup available at this location.",
+                        "address": {
+                            "address": "Apple Aventura",
+                            "address2": "19501 Biscayne Boulevard",
+                            "postalCode": "33180"
+                        },
+                        "hoursUrl": "http://www.apple.com/retail/aventura",
+                        "directionsUrl": "http://www.apple.com/retail/aventura",
+                        "storeHours": {
+                            "storeHoursText": "Store Hours",
+                            "bopisPickupDays": "Days",
+                            "bopisPickupHours": "Hours",
+                            "hours": [
+                                {
+                                    "storeTimings": "11:00 AM-8:00 PM",
+                                    "storeDays": "Sun:"
+                                },
+                                {
+                                    "storeTimings": "10:00 AM-9:30 PM",
+                                    "storeDays": "Mon-Sat:"
+                                }
+                            ]
+                        },
+                        "storelatitude": 25.95825,
+                        "storelongitude": -80.141707,
+                        "storedistance": 8.92,
+                        "storeDistanceWithUnit": "8.92 mi",
+                        "storeDistanceVoText": "8.92 mi from 33180",
+                        "retailStore": {
+                            "storeNumber": "R087",
+                            "storeUniqueId": "R087",
+                            "name": "Aventura",
+                            "storeTypeKey": "1",
+                            "storeSubTypeKey": "0",
+                            "storeType": "APPLESTORE_DEFAULT",
+                            "phoneNumber": "305-914 9826",
+                            "email": "aventura@apple.com",
+                            "latitude": 25.95825,
+                            "longitude": -80.141707,
+                            "address": {
+                                "companyName": "Apple Aventura",
+                                "street": "19501 Biscayne Boulevard",
+                                "city": "Aventura",
+                                "postalCode": "33180",
+                                "state": "FL",
+                                "countryCode": "US",
+                                "daytimePhone": "305-914 9826",
+                                "uuid": "be087bc9-dd83-431a-a69b-b66b627a2aaa",
+                                "languageCode": "US-EN",
+                                "type": "SHIPPING",
+                                "primaryAddress": false,
+                                "businessAddress": false,
+                                "verificationState": "UN_VERIFIED"
+                            },
+                            "directionsUrl": "http://www.apple.com/retail/aventura",
+                            "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R087.png?resize=828:*&output-format=jpg",
+                            "hoursAndInfoUrl": "http://www.apple.com/retail/aventura",
+                            "storeHours": [
+                                {
+                                    "storeDays": "Sun",
+                                    "voStoreDays": "Sunday",
+                                    "storeTimings": "11:00 AM-8:00 PM"
+                                },
+                                {
+                                    "storeDays": "Mon-Sat",
+                                    "voStoreDays": "Monday-Saturday",
+                                    "storeTimings": "10:00 AM-9:30 PM"
+                                }
+                            ],
+                            "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R087.png?resize=828:*&output-format=jpg",
+                            "distance": 8.92,
+                            "distanceUnit": "mi",
+                            "distanceWithUnit": "8.92 mi",
+                            "timezone": "America/New_York",
+                            "storeIsActive": true,
+                            "lastUpdated": 0.0,
+                            "lastFetched": 1759534186962,
+                            "dateStamp": "03-Oct-2025",
+                            "distanceSeparator": ".",
+                            "storeHolidayLookAheadWindow": 7,
+                            "storePickupMethodByType": {
+                                "INSTORE": {
+                                    "type": "INSTORE",
+                                    "services": [
+                                        "APU"
+                                    ],
+                                    "typeCoordinate": {
+                                        "lon": -80.141707,
+                                        "lat": 25.95825
+                                    }
+                                }
+                            },
+                            "availableNow": true
+                        },
+                        "storelistnumber": 4,
+                        "storeListNumber": 4,
+                        "pickupOptionsDetails": {
+                            "whatToExpectAtPickup": "<h4 class=\"as-pickupmethods-intro-header\">What to expect at pickup </h4><br /> We\u2019ll email detailed pickup instructions when your order is ready. For new device setup, schedule a free online session with an Apple Specialist.",
+                            "comparePickupOptionsLink": "<a href=\"https://www.apple.com/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">Learn more about delivery <br />and pickup<span class=\"icon icon-after icon-external\"></span><span class=\"visuallyhidden\">(Opens in a new window)</span></a>",
+                            "pickupOptions": [
+                                {
+                                    "pickupOptionTitle": "In-Store",
+                                    "pickupOptionDescription": "Pick up your online order. You may be able to get setup help and shop for accessories.",
+                                    "index": 1
+                                }
+                            ]
+                        },
+                        "rank": 4
+                    },
+                    {
                         "storeEmail": "dadeland@apple.com",
                         "storeName": "Dadeland",
                         "reservationUrl": "http://www.apple.com/retail/dadeland",
@@ -479,10 +633,10 @@
                         "city": "Miami",
                         "storeNumber": "R312",
                         "partsAvailability": {
-                            "MFXK4LL/A": {
+                            "MFXH4LL/A": {
                                 "storePickEligible": true,
                                 "pickupSearchQuote": "Currently unavailable",
-                                "partNumber": "MFXK4LL/A",
+                                "partNumber": "MFXH4LL/A",
                                 "pickupDisplay": "unavailable",
                                 "pickupType": "In-Store Pickup",
                                 "messageTypes": {
@@ -492,7 +646,7 @@
                                         "storeSelectionEnabled": false,
                                         "storePickupQuote": "Currently unavailable",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     },
                                     "regular": {
                                         "storeSearchEnabled": true,
@@ -501,7 +655,7 @@
                                         "storePickupQuote": "Currently unavailable at Apple Dadeland",
                                         "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Dadeland<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     }
                                 },
                                 "buyability": {
@@ -538,9 +692,9 @@
                         },
                         "storelatitude": 25.689879,
                         "storelongitude": -80.313707,
-                        "storedistance": 9.14,
-                        "storeDistanceWithUnit": "9.14 mi",
-                        "storeDistanceVoText": "9.14 mi from 33156",
+                        "storedistance": 15.5,
+                        "storeDistanceWithUnit": "15.5 mi",
+                        "storeDistanceVoText": "15.5 mi from 33156",
                         "retailStore": {
                             "storeNumber": "R312",
                             "storeUniqueId": "R312",
@@ -560,7 +714,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "305-341 9812",
-                                "uuid": "c7a97f9c-db25-4443-9e1d-5e0e76e2ea5a",
+                                "uuid": "b3f0c0c9-8c26-4ebc-a246-39468eb75624",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -583,13 +737,13 @@
                                 }
                             ],
                             "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R312.png?resize=828:*&output-format=jpg",
-                            "distance": 9.14,
+                            "distance": 15.5,
                             "distanceUnit": "mi",
-                            "distanceWithUnit": "9.14 mi",
+                            "distanceWithUnit": "15.5 mi",
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759517284461,
+                            "lastFetched": 1759534186963,
                             "dateStamp": "03-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
@@ -600,15 +754,15 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lat": 25.689879,
-                                        "lon": -80.313707
+                                        "lon": -80.313707,
+                                        "lat": 25.689879
                                     }
                                 }
                             },
                             "availableNow": true
                         },
-                        "storelistnumber": 4,
-                        "storeListNumber": 4,
+                        "storelistnumber": 5,
+                        "storeListNumber": 5,
                         "pickupOptionsDetails": {
                             "whatToExpectAtPickup": "<h4 class=\"as-pickupmethods-intro-header\">What to expect at pickup </h4><br /> We\u2019ll email detailed pickup instructions when your order is ready. For new device setup, schedule a free online session with an Apple Specialist.",
                             "comparePickupOptionsLink": "<a href=\"https://www.apple.com/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">Learn more about delivery <br />and pickup<span class=\"icon icon-after icon-external\"></span><span class=\"visuallyhidden\">(Opens in a new window)</span></a>",
@@ -620,7 +774,7 @@
                                 }
                             ]
                         },
-                        "rank": 4
+                        "rank": 5
                     },
                     {
                         "storeEmail": "thefalls@apple.com",
@@ -633,10 +787,10 @@
                         "city": "Miami",
                         "storeNumber": "R012",
                         "partsAvailability": {
-                            "MFXK4LL/A": {
+                            "MFXH4LL/A": {
                                 "storePickEligible": true,
                                 "pickupSearchQuote": "Currently unavailable",
-                                "partNumber": "MFXK4LL/A",
+                                "partNumber": "MFXH4LL/A",
                                 "pickupDisplay": "unavailable",
                                 "pickupType": "In-Store Pickup",
                                 "messageTypes": {
@@ -646,7 +800,7 @@
                                         "storeSelectionEnabled": false,
                                         "storePickupQuote": "Currently unavailable",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     },
                                     "regular": {
                                         "storeSearchEnabled": true,
@@ -655,7 +809,7 @@
                                         "storePickupQuote": "Currently unavailable at Apple The Falls",
                                         "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple The Falls<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     }
                                 },
                                 "buyability": {
@@ -696,9 +850,9 @@
                         },
                         "storelatitude": 25.643719563754,
                         "storelongitude": -80.33814594377,
-                        "storedistance": 12.4,
-                        "storeDistanceWithUnit": "12.4 mi",
-                        "storeDistanceVoText": "12.4 mi from 33176",
+                        "storedistance": 18.75,
+                        "storeDistanceWithUnit": "18.75 mi",
+                        "storeDistanceVoText": "18.75 mi from 33176",
                         "retailStore": {
                             "storeNumber": "R012",
                             "storeUniqueId": "R012",
@@ -718,7 +872,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "305-234 4565",
-                                "uuid": "5a21a270-f759-4a71-9a41-2e97b915cf50",
+                                "uuid": "70dccde4-b784-426f-ae33-6cf979e4d5bc",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -746,13 +900,13 @@
                                 }
                             ],
                             "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R012.png?resize=828:*&output-format=jpg",
-                            "distance": 12.4,
+                            "distance": 18.75,
                             "distanceUnit": "mi",
-                            "distanceWithUnit": "12.4 mi",
+                            "distanceWithUnit": "18.75 mi",
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759517284461,
+                            "lastFetched": 1759534186963,
                             "dateStamp": "03-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
@@ -763,162 +917,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lat": 25.6437195637543,
-                                        "lon": -80.3381459437702
-                                    }
-                                }
-                            },
-                            "availableNow": true
-                        },
-                        "storelistnumber": 5,
-                        "storeListNumber": 5,
-                        "pickupOptionsDetails": {
-                            "whatToExpectAtPickup": "<h4 class=\"as-pickupmethods-intro-header\">What to expect at pickup </h4><br /> We\u2019ll email detailed pickup instructions when your order is ready. For new device setup, schedule a free online session with an Apple Specialist.",
-                            "comparePickupOptionsLink": "<a href=\"https://www.apple.com/shop/shipping-pickup\" data-feature-name=\"Astro Link\" data-display-name=\"AOS: shop/shipping-pickup\" target=\"_blank\">Learn more about delivery <br />and pickup<span class=\"icon icon-after icon-external\"></span><span class=\"visuallyhidden\">(Opens in a new window)</span></a>",
-                            "pickupOptions": [
-                                {
-                                    "pickupOptionTitle": "In-Store",
-                                    "pickupOptionDescription": "Pick up your online order. You may be able to get setup help and shop for accessories.",
-                                    "index": 1
-                                }
-                            ]
-                        },
-                        "rank": 5
-                    },
-                    {
-                        "storeEmail": "aventura@apple.com",
-                        "storeName": "Aventura",
-                        "reservationUrl": "http://www.apple.com/retail/aventura",
-                        "makeReservationUrl": "http://www.apple.com/retail/aventura",
-                        "state": "FL",
-                        "storeImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R087.png?resize=828:*&output-format=jpg",
-                        "country": "US",
-                        "city": "Aventura",
-                        "storeNumber": "R087",
-                        "partsAvailability": {
-                            "MFXK4LL/A": {
-                                "storePickEligible": true,
-                                "pickupSearchQuote": "Currently unavailable",
-                                "partNumber": "MFXK4LL/A",
-                                "pickupDisplay": "unavailable",
-                                "pickupType": "In-Store Pickup",
-                                "messageTypes": {
-                                    "compact": {
-                                        "storeSearchEnabled": true,
-                                        "storePickupLabel": "Pickup:",
-                                        "storeSelectionEnabled": false,
-                                        "storePickupQuote": "Currently unavailable",
-                                        "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
-                                    },
-                                    "regular": {
-                                        "storeSearchEnabled": true,
-                                        "storePickupLabel": "Pickup:",
-                                        "storeSelectionEnabled": false,
-                                        "storePickupQuote": "Currently unavailable at Apple Aventura",
-                                        "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Aventura<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
-                                        "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
-                                    }
-                                },
-                                "buyability": {
-                                    "isBuyable": false,
-                                    "reason": "NOT_AVAILABLE_FOR_PICKUP",
-                                    "commitCodeId": 300,
-                                    "inventory": 0
-                                }
-                            }
-                        },
-                        "phoneNumber": "305-914 9826",
-                        "pickupTypeAvailabilityText": "In-Store Pickup available at this location.",
-                        "address": {
-                            "address": "Apple Aventura",
-                            "address2": "19501 Biscayne Boulevard",
-                            "postalCode": "33180"
-                        },
-                        "hoursUrl": "http://www.apple.com/retail/aventura",
-                        "directionsUrl": "http://www.apple.com/retail/aventura",
-                        "storeHours": {
-                            "storeHoursText": "Store Hours",
-                            "bopisPickupDays": "Days",
-                            "bopisPickupHours": "Hours",
-                            "hours": [
-                                {
-                                    "storeTimings": "11:00 AM-8:00 PM",
-                                    "storeDays": "Sun:"
-                                },
-                                {
-                                    "storeTimings": "10:00 AM-9:30 PM",
-                                    "storeDays": "Mon-Sat:"
-                                }
-                            ]
-                        },
-                        "storelatitude": 25.95825,
-                        "storelongitude": -80.141707,
-                        "storedistance": 13.41,
-                        "storeDistanceWithUnit": "13.41 mi",
-                        "storeDistanceVoText": "13.41 mi from 33180",
-                        "retailStore": {
-                            "storeNumber": "R087",
-                            "storeUniqueId": "R087",
-                            "name": "Aventura",
-                            "storeTypeKey": "1",
-                            "storeSubTypeKey": "0",
-                            "storeType": "APPLESTORE_DEFAULT",
-                            "phoneNumber": "305-914 9826",
-                            "email": "aventura@apple.com",
-                            "latitude": 25.95825,
-                            "longitude": -80.141707,
-                            "address": {
-                                "companyName": "Apple Aventura",
-                                "street": "19501 Biscayne Boulevard",
-                                "city": "Aventura",
-                                "postalCode": "33180",
-                                "state": "FL",
-                                "countryCode": "US",
-                                "daytimePhone": "305-914 9826",
-                                "uuid": "540830a5-0a8f-4c5f-bc6f-f14dd20ef4a2",
-                                "languageCode": "US-EN",
-                                "type": "SHIPPING",
-                                "primaryAddress": false,
-                                "businessAddress": false,
-                                "verificationState": "UN_VERIFIED"
-                            },
-                            "directionsUrl": "http://www.apple.com/retail/aventura",
-                            "storeImageUrl": "http://rtlimages.apple.com/cmc/dieter/store/4_3/R087.png?resize=828:*&output-format=jpg",
-                            "hoursAndInfoUrl": "http://www.apple.com/retail/aventura",
-                            "storeHours": [
-                                {
-                                    "storeDays": "Sun",
-                                    "voStoreDays": "Sunday",
-                                    "storeTimings": "11:00 AM-8:00 PM"
-                                },
-                                {
-                                    "storeDays": "Mon-Sat",
-                                    "voStoreDays": "Monday-Saturday",
-                                    "storeTimings": "10:00 AM-9:30 PM"
-                                }
-                            ],
-                            "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R087.png?resize=828:*&output-format=jpg",
-                            "distance": 13.41,
-                            "distanceUnit": "mi",
-                            "distanceWithUnit": "13.41 mi",
-                            "timezone": "America/New_York",
-                            "storeIsActive": true,
-                            "lastUpdated": 0.0,
-                            "lastFetched": 1759517284461,
-                            "dateStamp": "03-Oct-2025",
-                            "distanceSeparator": ".",
-                            "storeHolidayLookAheadWindow": 7,
-                            "storePickupMethodByType": {
-                                "INSTORE": {
-                                    "type": "INSTORE",
-                                    "services": [
-                                        "APU"
-                                    ],
-                                    "typeCoordinate": {
-                                        "lat": 25.95825,
-                                        "lon": -80.141707
+                                        "lon": -80.3381459437702,
+                                        "lat": 25.6437195637543
                                     }
                                 }
                             },
@@ -950,10 +950,10 @@
                         "city": "Fort Lauderdale",
                         "storeNumber": "R214",
                         "partsAvailability": {
-                            "MFXK4LL/A": {
+                            "MFXH4LL/A": {
                                 "storePickEligible": true,
                                 "pickupSearchQuote": "Currently unavailable",
-                                "partNumber": "MFXK4LL/A",
+                                "partNumber": "MFXH4LL/A",
                                 "pickupDisplay": "unavailable",
                                 "pickupType": "In-Store Pickup",
                                 "messageTypes": {
@@ -963,7 +963,7 @@
                                         "storeSelectionEnabled": false,
                                         "storePickupQuote": "Currently unavailable",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     },
                                     "regular": {
                                         "storeSearchEnabled": true,
@@ -972,7 +972,7 @@
                                         "storePickupQuote": "Currently unavailable at Apple The Galleria",
                                         "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple The Galleria<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     }
                                 },
                                 "buyability": {
@@ -1009,9 +1009,9 @@
                         },
                         "storelatitude": 26.13667461979732,
                         "storelongitude": -80.11439550438627,
-                        "storedistance": 25.8,
-                        "storeDistanceWithUnit": "25.8 mi",
-                        "storeDistanceVoText": "25.8 mi from 33304",
+                        "storedistance": 21.15,
+                        "storeDistanceWithUnit": "21.15 mi",
+                        "storeDistanceVoText": "21.15 mi from 33304",
                         "retailStore": {
                             "storeNumber": "R214",
                             "storeUniqueId": "R214",
@@ -1031,7 +1031,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "954-331 4501",
-                                "uuid": "d9a18f5a-a26e-43ed-b9a9-1a1653d8fdc6",
+                                "uuid": "b033e16e-f2ed-4074-bb18-2c3aca3fa881",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -1054,13 +1054,13 @@
                                 }
                             ],
                             "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R214.png?resize=828:*&output-format=jpg",
-                            "distance": 25.8,
+                            "distance": 21.15,
                             "distanceUnit": "mi",
-                            "distanceWithUnit": "25.8 mi",
+                            "distanceWithUnit": "21.15 mi",
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759517284461,
+                            "lastFetched": 1759534186963,
                             "dateStamp": "03-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
@@ -1071,8 +1071,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lat": 26.13667461979732,
-                                        "lon": -80.11439550438627
+                                        "lon": -80.11439550438627,
+                                        "lat": 26.13667461979732
                                     }
                                 }
                             },
@@ -1104,10 +1104,10 @@
                         "city": "Boca Raton",
                         "storeNumber": "R074",
                         "partsAvailability": {
-                            "MFXK4LL/A": {
+                            "MFXH4LL/A": {
                                 "storePickEligible": true,
                                 "pickupSearchQuote": "Currently unavailable",
-                                "partNumber": "MFXK4LL/A",
+                                "partNumber": "MFXH4LL/A",
                                 "pickupDisplay": "unavailable",
                                 "pickupType": "In-Store Pickup",
                                 "messageTypes": {
@@ -1117,7 +1117,7 @@
                                         "storeSelectionEnabled": false,
                                         "storePickupQuote": "Currently unavailable",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     },
                                     "regular": {
                                         "storeSearchEnabled": true,
@@ -1126,7 +1126,7 @@
                                         "storePickupQuote": "Currently unavailable at Apple Boca Raton",
                                         "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Boca Raton<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     }
                                 },
                                 "buyability": {
@@ -1167,9 +1167,9 @@
                         },
                         "storelatitude": 26.36569,
                         "storelongitude": -80.13323,
-                        "storedistance": 41.29,
-                        "storeDistanceWithUnit": "41.29 mi",
-                        "storeDistanceVoText": "41.29 mi from 33431",
+                        "storedistance": 36.98,
+                        "storeDistanceWithUnit": "36.98 mi",
+                        "storeDistanceVoText": "36.98 mi from 33431",
                         "retailStore": {
                             "storeNumber": "R074",
                             "storeUniqueId": "R074",
@@ -1189,7 +1189,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "561-226 0270",
-                                "uuid": "cce9c8a0-c7a6-4b7b-8280-ec5b24cbaa9b",
+                                "uuid": "c5af8f00-1921-42ff-bdb0-8af5e1305b3b",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -1217,13 +1217,13 @@
                                 }
                             ],
                             "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R074.png?resize=828:*&output-format=jpg",
-                            "distance": 41.29,
+                            "distance": 36.98,
                             "distanceUnit": "mi",
-                            "distanceWithUnit": "41.29 mi",
+                            "distanceWithUnit": "36.98 mi",
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759517284461,
+                            "lastFetched": 1759534186963,
                             "dateStamp": "03-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
@@ -1234,8 +1234,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lat": 26.36569,
-                                        "lon": -80.13323
+                                        "lon": -80.13323,
+                                        "lat": 26.36569
                                     }
                                 }
                             },
@@ -1267,10 +1267,10 @@
                         "city": "Wellington",
                         "storeNumber": "R024",
                         "partsAvailability": {
-                            "MFXK4LL/A": {
+                            "MFXH4LL/A": {
                                 "storePickEligible": true,
                                 "pickupSearchQuote": "Currently unavailable",
-                                "partNumber": "MFXK4LL/A",
+                                "partNumber": "MFXH4LL/A",
                                 "pickupDisplay": "unavailable",
                                 "pickupType": "In-Store Pickup",
                                 "messageTypes": {
@@ -1280,7 +1280,7 @@
                                         "storeSelectionEnabled": false,
                                         "storePickupQuote": "Currently unavailable",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     },
                                     "regular": {
                                         "storeSearchEnabled": true,
@@ -1289,7 +1289,7 @@
                                         "storePickupQuote": "Currently unavailable at Apple Wellington Green",
                                         "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Wellington Green<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     }
                                 },
                                 "buyability": {
@@ -1326,9 +1326,9 @@
                         },
                         "storelatitude": 26.647028,
                         "storelongitude": -80.208856,
-                        "storedistance": 60.54,
-                        "storeDistanceWithUnit": "60.54 mi",
-                        "storeDistanceVoText": "60.54 mi from 33414",
+                        "storedistance": 56.68,
+                        "storeDistanceWithUnit": "56.68 mi",
+                        "storeDistanceVoText": "56.68 mi from 33414",
                         "retailStore": {
                             "storeNumber": "R024",
                             "storeUniqueId": "R024",
@@ -1348,7 +1348,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "561-273 2940",
-                                "uuid": "9d368489-bfa2-4e8a-9f11-ee4e64b099cd",
+                                "uuid": "fed758b1-33b5-4e2c-a556-a630d7e7d469",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -1371,13 +1371,13 @@
                                 }
                             ],
                             "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R024.png?resize=828:*&output-format=jpg",
-                            "distance": 60.54,
+                            "distance": 56.68,
                             "distanceUnit": "mi",
-                            "distanceWithUnit": "60.54 mi",
+                            "distanceWithUnit": "56.68 mi",
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759517284461,
+                            "lastFetched": 1759534186963,
                             "dateStamp": "03-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
@@ -1388,8 +1388,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lat": 26.647028,
-                                        "lon": -80.208856
+                                        "lon": -80.208856,
+                                        "lat": 26.647028
                                     }
                                 }
                             },
@@ -1421,10 +1421,10 @@
                         "city": "Palm Beach Gardens",
                         "storeNumber": "R127",
                         "partsAvailability": {
-                            "MFXK4LL/A": {
+                            "MFXH4LL/A": {
                                 "storePickEligible": true,
                                 "pickupSearchQuote": "Currently unavailable",
-                                "partNumber": "MFXK4LL/A",
+                                "partNumber": "MFXH4LL/A",
                                 "pickupDisplay": "unavailable",
                                 "pickupType": "In-Store Pickup",
                                 "messageTypes": {
@@ -1434,7 +1434,7 @@
                                         "storeSelectionEnabled": false,
                                         "storePickupQuote": "Currently unavailable",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     },
                                     "regular": {
                                         "storeSearchEnabled": true,
@@ -1443,7 +1443,7 @@
                                         "storePickupQuote": "Currently unavailable at Apple The Gardens Mall",
                                         "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple The Gardens Mall<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     }
                                 },
                                 "buyability": {
@@ -1480,9 +1480,9 @@
                         },
                         "storelatitude": 26.84865,
                         "storelongitude": -80.0848,
-                        "storedistance": 74.8,
-                        "storeDistanceWithUnit": "74.8 mi",
-                        "storeDistanceVoText": "74.8 mi from 33410",
+                        "storedistance": 70.37,
+                        "storeDistanceWithUnit": "70.37 mi",
+                        "storeDistanceVoText": "70.37 mi from 33410",
                         "retailStore": {
                             "storeNumber": "R127",
                             "storeUniqueId": "R127",
@@ -1502,7 +1502,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "561-273 2160",
-                                "uuid": "f429a927-d748-4a9b-89c6-317a016acdb5",
+                                "uuid": "d2ec62d5-1006-4fb4-a547-dea2c6d43870",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -1525,13 +1525,13 @@
                                 }
                             ],
                             "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R127.png?resize=828:*&output-format=jpg",
-                            "distance": 74.8,
+                            "distance": 70.37,
                             "distanceUnit": "mi",
-                            "distanceWithUnit": "74.8 mi",
+                            "distanceWithUnit": "70.37 mi",
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759517284461,
+                            "lastFetched": 1759534186963,
                             "dateStamp": "03-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
@@ -1542,8 +1542,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lat": 26.84865,
-                                        "lon": -80.0848
+                                        "lon": -80.0848,
+                                        "lat": 26.84865
                                     }
                                 }
                             },
@@ -1575,10 +1575,10 @@
                         "city": "Naples",
                         "storeNumber": "R169",
                         "partsAvailability": {
-                            "MFXK4LL/A": {
+                            "MFXH4LL/A": {
                                 "storePickEligible": true,
                                 "pickupSearchQuote": "Currently unavailable",
-                                "partNumber": "MFXK4LL/A",
+                                "partNumber": "MFXH4LL/A",
                                 "pickupDisplay": "unavailable",
                                 "pickupType": "In-Store Pickup",
                                 "messageTypes": {
@@ -1588,7 +1588,7 @@
                                         "storeSelectionEnabled": false,
                                         "storePickupQuote": "Currently unavailable",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     },
                                     "regular": {
                                         "storeSearchEnabled": true,
@@ -1597,7 +1597,7 @@
                                         "storePickupQuote": "Currently unavailable at Apple Waterside Shops",
                                         "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Waterside Shops<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     }
                                 },
                                 "buyability": {
@@ -1634,9 +1634,9 @@
                         },
                         "storelatitude": 26.2132,
                         "storelongitude": -81.8017,
-                        "storedistance": 104.2,
-                        "storeDistanceWithUnit": "104.2 mi",
-                        "storeDistanceVoText": "104.2 mi from 34108",
+                        "storedistance": 107.73,
+                        "storeDistanceWithUnit": "107.73 mi",
+                        "storeDistanceVoText": "107.73 mi from 34108",
                         "retailStore": {
                             "storeNumber": "R169",
                             "storeUniqueId": "R169",
@@ -1656,7 +1656,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "239-254 4240",
-                                "uuid": "50b42eaf-ead7-41c2-b412-3e6df726c7af",
+                                "uuid": "a805185a-6dc4-426f-8f7a-3c656e73f9e2",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -1679,13 +1679,13 @@
                                 }
                             ],
                             "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R169.png?resize=828:*&output-format=jpg",
-                            "distance": 104.2,
+                            "distance": 107.73,
                             "distanceUnit": "mi",
-                            "distanceWithUnit": "104.2 mi",
+                            "distanceWithUnit": "107.73 mi",
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759517284461,
+                            "lastFetched": 1759534186963,
                             "dateStamp": "03-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
@@ -1696,8 +1696,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lat": 26.2132,
-                                        "lon": -81.8017
+                                        "lon": -81.8017,
+                                        "lat": 26.2132
                                     }
                                 }
                             },
@@ -1729,10 +1729,10 @@
                         "city": "Estero",
                         "storeNumber": "R185",
                         "partsAvailability": {
-                            "MFXK4LL/A": {
+                            "MFXH4LL/A": {
                                 "storePickEligible": true,
                                 "pickupSearchQuote": "Currently unavailable",
-                                "partNumber": "MFXK4LL/A",
+                                "partNumber": "MFXH4LL/A",
                                 "pickupDisplay": "unavailable",
                                 "pickupType": "In-Store Pickup",
                                 "messageTypes": {
@@ -1742,7 +1742,7 @@
                                         "storeSelectionEnabled": false,
                                         "storePickupQuote": "Currently unavailable",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     },
                                     "regular": {
                                         "storeSearchEnabled": true,
@@ -1751,7 +1751,7 @@
                                         "storePickupQuote": "Currently unavailable at Apple Coconut Point",
                                         "storePickupQuote2_0": "Currently unavailable at <button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline icon icon-after icon-pluscircle\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Coconut Point<span class=\"visuallyhidden\">\u00a0(Check Availability)</span></button>",
                                         "storePickupLinkText": "Check availability",
-                                        "storePickupProductTitle": "iPhone 17 Pro Max 512GB Silver"
+                                        "storePickupProductTitle": "iPhone 17 Pro Max 256GB Cosmic Orange"
                                     }
                                 },
                                 "buyability": {
@@ -1788,9 +1788,9 @@
                         },
                         "storelatitude": 26.402100590821,
                         "storelongitude": -81.806635698069,
-                        "storedistance": 108.96,
-                        "storeDistanceWithUnit": "108.96 mi",
-                        "storeDistanceVoText": "108.96 mi from 33928",
+                        "storedistance": 111.86,
+                        "storeDistanceWithUnit": "111.86 mi",
+                        "storeDistanceVoText": "111.86 mi from 33928",
                         "retailStore": {
                             "storeNumber": "R185",
                             "storeUniqueId": "R185",
@@ -1810,7 +1810,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "239-949 8860",
-                                "uuid": "ee14e584-f7d5-4f04-b2cd-89083270ff0f",
+                                "uuid": "02192e6d-034e-4eb2-be97-0eabf93effcf",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -1833,13 +1833,13 @@
                                 }
                             ],
                             "secureStoreImageUrl": "https://rtlimages.apple.com/cmc/dieter/store/4_3/R185.png?resize=828:*&output-format=jpg",
-                            "distance": 108.96,
+                            "distance": 111.86,
                             "distanceUnit": "mi",
-                            "distanceWithUnit": "108.96 mi",
+                            "distanceWithUnit": "111.86 mi",
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759517284461,
+                            "lastFetched": 1759534186963,
                             "dateStamp": "03-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
@@ -1850,8 +1850,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lat": 26.4021005908209,
-                                        "lon": -81.8066356980691
+                                        "lon": -81.8066356980691,
+                                        "lat": 26.4021005908209
                                     }
                                 }
                             },
@@ -1875,9 +1875,9 @@
                 ],
                 "overlayInitiatedFromWarmStart": false,
                 "viewMoreHoursLinkText": "View more hours",
-                "storesCount": "12 stores found near Miami, FL",
+                "storesCount": "12 stores found near 33139",
                 "little": false,
-                "location": "Miami, FL",
+                "location": "33139",
                 "notAvailableNearby": "Not available today at [X] nearest stores.",
                 "notAvailableNearOneStore": "Not available today at the nearest store.",
                 "warmDudeWithAPU": false,
@@ -1892,20 +1892,15 @@
             "deliveryMessage": {
                 "geoLocated": false,
                 "availableOptionsText": "Available Options",
-                "geoEnabled": false,
-                "dudeCookieSet": false,
-                "deliveryLocationLabel": "See delivery dates for your location",
-                "dudeLocated": false,
-                "locationCookieValueFoundForThisCountry": false,
-                "MFXK4LL/A": {
+                "MFXH4LL/A": {
                     "compact": {
                         "label": "Ships:",
                         "quote": "3\u20134 weeks",
                         "showDeliveryOptionsLink": false,
                         "messageType": "Ship",
-                        "basePartNumber": "MFXK4",
+                        "basePartNumber": "MFXH4",
                         "commitCodeId": "300",
-                        "subHeader": "For iPhone 17 Pro Max 512GB Silver",
+                        "subHeader": "For iPhone 17 Pro Max 256GB Cosmic Orange",
                         "buyability": {
                             "reason": "OK",
                             "commitCode": "300",
@@ -1940,9 +1935,9 @@
                         },
                         "showDeliveryOptionsLink": true,
                         "messageType": "Ship",
-                        "basePartNumber": "MFXK4",
+                        "basePartNumber": "MFXH4",
                         "commitCodeId": "300",
-                        "subHeader": "For iPhone 17 Pro Max 512GB Silver",
+                        "subHeader": "For iPhone 17 Pro Max 256GB Cosmic Orange",
                         "stickyMessageIDL": "Unavailable for 2-hr delivery",
                         "stickyMessageSTH": "<span class=\"bold\">3\u20134 weeks</span>",
                         "buyability": {
@@ -1957,6 +1952,11 @@
                         "isBuyable": true
                     }
                 },
+                "geoEnabled": false,
+                "dudeCookieSet": false,
+                "deliveryLocationLabel": "See delivery dates for your location",
+                "dudeLocated": false,
+                "locationCookieValueFoundForThisCountry": false,
                 "accessibilityDeliveryOptions": "delivery options"
             }
         },

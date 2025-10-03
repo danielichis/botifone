@@ -5,7 +5,7 @@ import requests
 #from botifone.src.appleEndpoints.simple_navigator_final import main
 
 def get_cookies():
-    with open('src/appleEndpoints/cookiesHome.json', 'r') as f:
+    with open(r"botifone\src\appleEndpoints\cookiesHome.json", 'r') as f:
         coookies = json.load(f)
     cookies = {
     'as_sfa': coookies['as_sfa'],
@@ -25,15 +25,15 @@ def get_cookies():
     'shld_bt_m': coookies['shld_bt_m'],
     #'s_sq': coookies['s_sq'],
               }
-    with open('src/appleEndpoints/cookiesHomeSend.json', 'w') as f:
+    with open(r'botifone\src\appleEndpoints\cookiesHomeSend.json', 'w') as f:
         json.dump(cookies, f, indent=4)
     return cookies
     
 
 def get_headers():
-    with open('src/appleEndpoints/headers_simple.json', 'r') as f:
+    with open(r"botifone\src\appleEndpoints\headers_simple.json", 'r') as f:
         headers = json.load(f)
-    with open('src/appleEndpoints/headersSend.json', 'w') as f:
+    with open(r"botifone\src\appleEndpoints\headersSend.json", 'w') as f:
         json.dump(headers, f, indent=4)
     return headers
 
@@ -59,15 +59,21 @@ def test_request():
 def request_available_iphones(product_code,zip_code):
     cookies = get_cookies()
     headers = get_headers()
-    iphone_url=f'https://www.apple.com/shop/fulfillment-messages?fae=true&pl=true&mts.0=regular&mts.1=compact&cppart=UNLOCKED/US&parts.0={product_code}&location={zip_code}'
+    iphone_url=f'https://www.apple.com/shop/fulfillment-messages?fae=true&pl=true&mts.0=regular&mts.1=compact&cppart=UNLOCKED/US&parts.0={product_code}/A&location={zip_code}'
     response = requests.get(
         url=iphone_url,
         cookies=cookies,
         headers=headers,
         )
+
+    random_between_5_and_10 = random.randint(3,4)  # Espera entre 3 y 6 segundos
     print(response.status_code)
+    time.sleep(random_between_5_and_10)
+    
     if response.status_code == 200:
         print("Información obtenida exitosamente")
+        with open('botifone/src/appleEndpoints/availability.json', 'w') as f:
+            json.dump(response.json(), f, indent=4)
         return response.json()
     if response.status_code != 200:
         print("Error en la petición, obteniendo nuevas cookies y headers...")
