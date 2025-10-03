@@ -90,7 +90,7 @@ def suppress_chrome_destructor_error():
 class SafeChromeDriver:
     """Wrapper para undetected_chromedriver con manejo seguro del cierre"""
     
-    def __init__(self, version_main=134):
+    def __init__(self, version_main=141):
         self.driver = None
         self.version_main = version_main
         self._closed = False
@@ -117,8 +117,8 @@ class SafeChromeDriver:
                 profiles = list_chrome_profiles(chrome_user_data)
 
                 # Usar el perfil 3 si existe, sino el primero disponible
-                profile_to_use = "Profile 3"
-                if "Profile 3" not in profiles and profiles:
+                profile_to_use = "Default"
+                if "Default" not in profiles and profiles:
                     profile_to_use = profiles[0]
                     logger.info(f"Perfil Default no encontrado, usando: {profile_to_use}")
                 
@@ -129,7 +129,7 @@ class SafeChromeDriver:
                 options.add_argument(f'--profile-directory={profile_to_use}')
                 
                 # IMPORTANTE: Evitar conflictos si Chrome está abierto
-                options.add_argument('--remote-debugging-port=9222')
+                #options.add_argument('--remote-debugging-port=9222')
                 
             else:
                 logger.warning("No se encontró el directorio de datos de Chrome, usando perfil temporal")
@@ -149,8 +149,11 @@ class SafeChromeDriver:
             options.add_argument('--disable-features=VizDisplayCompositor')
             
             # Configurar el User-Agent para que coincida con el navegador real
-            options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36')
+            options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36')
             
+            ##testing
+            options.add_argument('--window-size=1920,1080')
+
             logger.info(f"Configurando ChromeDriver para versión {self.version_main} con datos persistentes...")
             
             driver = uc.Chrome(
@@ -563,7 +566,7 @@ def main():
     
     try:
         # Usar el context manager para manejo seguro
-        with SafeChromeDriver(version_main=134) as driver:
+        with SafeChromeDriver(version_main=141) as driver:
             
             # Navegar a la página
             logger.info("Navegando a Apple iPhone...")
