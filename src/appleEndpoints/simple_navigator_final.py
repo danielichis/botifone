@@ -90,7 +90,7 @@ def suppress_chrome_destructor_error():
 class SafeChromeDriver:
     """Wrapper para undetected_chromedriver con manejo seguro del cierre"""
     
-    def __init__(self, version_main=141):
+    def __init__(self, version_main=119):
         self.driver = None
         self.version_main = version_main
         self._closed = False
@@ -150,7 +150,16 @@ class SafeChromeDriver:
             
             # Configurar el User-Agent para que coincida con el navegador real
             options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36')
+            options.add_argument('--no-sandbox')
+            options.add_argument('--disable-dev-shm-usage')
+            options.add_argument('--disable-gpu')
+            options.add_argument('--disable-software-rasterizer')
+            options.add_argument('--window-size=1920,1080')
             
+            options.add_argument('--disable-blink-features=AutomationControlled')
+            options.add_argument('--enable-javascript')
+        
+
             ##testing
             options.add_argument('--window-size=1920,1080')
 
@@ -158,9 +167,10 @@ class SafeChromeDriver:
             
             driver = uc.Chrome(
                 options=options,
-                version_main=self.version_main,
+                version_main=119,
                 headless=False,
-                use_subprocess=False  # Importante para evitar conflictos con Chrome abierto
+                use_subprocess=True,  # Importante para evitar conflictos con Chrome abierto
+                driver_executable_path=None
             )
             
             logger.info(f"✓ Driver creado exitosamente con versión {self.version_main}")
@@ -450,7 +460,7 @@ def save_headers_to_file(driver, filename='headers.json'):
         # Extraer versión de Chrome del User-Agent
         import re
         chrome_version_match = re.search(r'Chrome/(\d+)\.(\d+)\.(\d+)\.(\d+)', browser_info['userAgent'])
-        chrome_version = chrome_version_match.group(1) if chrome_version_match else '134'
+        chrome_version = chrome_version_match.group(1) if chrome_version_match else '141'
         
         # Generar headers basados en información real del navegador
         headers = {
@@ -566,14 +576,14 @@ def main():
     
     try:
         # Usar el context manager para manejo seguro
-        with SafeChromeDriver(version_main=141) as driver:
+        with SafeChromeDriver(version_main=119) as driver:
             
             # Navegar a la página
             logger.info("Navegando a Apple iPhone...")
             driver.get('https://www.apple.com/shop/buy-iphone/iphone-17-pro')
             
             # Esperar a que la página cargue completamente
-            wait = WebDriverWait(driver, 10)
+            wait = WebDriverWait(driver,20)
             wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
             
             # Esperar un momento adicional para que todos los elementos se carguen
