@@ -1,0 +1,75 @@
+{
+    "configData": {
+        "zipcodes": [
+            33166,
+            33139
+        ],
+        "products": [
+            {
+                "code": "MFXG4LL",
+                "name": "iPhone 17 Pro Max 256GB Silver",
+                "price": "",
+                "gamma": "https://www.apple.com/shop/buy-iphone/iphone-17-pro/6.9-inch-display-256gb-silver-unlocked",
+                "color": "SILVER",
+                "capacity": "256gb",
+                "version": ""
+            },
+            {
+                "code": "MFXH4LL",
+                "name": "iPhone 17 Pro Max 256GB Cosmic Orange",
+                "price": "",
+                "gamma": "",
+                "color": "Cosmic Orange",
+                "capacity": "256GB",
+                "version": ""
+            },
+            {
+                "code": "MFXJ4LL",
+                "name": "iPhone 17 Pro Max 256GB Deep Blue",
+                "price": "",
+                "gamma": "",
+                "color": "Deep Blue",
+                "capacity": "256GB",
+                "version": ""
+            },
+            {
+                "code": "MFXK4LL",
+                "name": "iPhone 17 Pro Max 512GB Silver",
+                "price": "",
+                "gamma": "",
+                "color": "",
+                "capacity": "",
+                "version": ""
+            }
+        ],
+        "bestMarkets": [
+            "Lincoln Road",
+            "Brickell City Centre",
+            "Aventura",
+            "Dadeland",
+            "The Falls",
+            "The Galleria",
+            "Boca Raton",
+            "Wellington Green",
+            "The Gardens Mall",
+            "Waterside Shops",
+            "Coconut Point"
+        ],
+        "giftCards": [
+            "X5ZHZHNJ9JV2VJ6C"
+        ],
+        "buyerInfo": {
+            "name": "Gianfranco",
+            "lastName": "Preciado",
+            "number": 7862059669,
+            "email": "danerchaba@gmail.com"
+        },
+        "schedule": 1,
+        "debug": "DESACTIVADO",
+        "compraFinal": "ACTIVADO",
+        "productAvaible": {},
+        "zipcodeAvaible": "",
+        "Estado": "CONECTADO",
+        "iterations": 3
+    }
+}
