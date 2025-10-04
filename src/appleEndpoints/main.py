@@ -11,8 +11,8 @@
 import json
 import requests
 from botifone.src.appleEndpoints.data_processing import check_availability
-from botifone.src.appleEndpoints.avaitability import request_available_iphones
-from botifone.src.appleEndpoints.simple_navigator_final import main
+from botifone.src.appleEndpoints.avaitability import request_available_iphones,are_new_cookies_expired
+from botifone.src.appleEndpoints.simple_navigator_final import refreshCookies
 from botifone.src.appleEndpoints.mail_notification import send_availability_notification
 from botifone.src.appleEndpoints.data_processing import register_available_stores, record_iphone_availability
     
@@ -42,7 +42,7 @@ def get_available_iphones_and_update_sheets():
     combinations = [(product, str(zip_code)) for product in all_products for zip_code in zip_codes]
     
     # Get initial cookies and headers
-    #main()
+    refreshCookies()
     while True:
         for product, zip_code in combinations:
             product_code = product['code']
@@ -98,17 +98,16 @@ def get_available_iphones_and_update_sheets():
                 else:
                     print(f"Product {product['name']} not available in preferred stores for ZIP code {zip_code}")
             else:
-                break
                 print(f"Request failed for {product['name']} in {zip_code}. Getting new cookies and headers...")
                 # Record the unavailability even when request fails
-                record_iphone_availability(
-                    product_info=product,
-                    zip_code=zip_code,
-                    is_available=False
-                )
                 print("Refreshing cookies and headers...")
-                main()  # Refresh cookies and headers
-                print("Retrying the request...")
+                refreshCookies()  # Refresh cookies and headers
+                print("Verifying if new cookies are valid...")
+                if are_new_cookies_expired():
+                    print("New cookies are expired, refreshing again...")
+                    return 0
+                else:
+                    print("Retrying the request...")
 
 
 

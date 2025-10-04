@@ -109,31 +109,16 @@ class SafeChromeDriver:
         try:
             options = uc.ChromeOptions()
             
-            # Obtener el directorio de datos del usuario real de Chrome
-            chrome_user_data = get_chrome_user_data_dir()
+            # Crear un directorio temporal para el perfil
+            temp_dir = os.path.join(tempfile.gettempdir(), f'chrome_temp_profile_{int(time.time())}')
+            os.makedirs(temp_dir, exist_ok=True)
             
-            # Configurar el directorio de datos del usuario si se encuentra
-            if chrome_user_data:
-                profiles = list_chrome_profiles(chrome_user_data)
-
-                # Usar el perfil 3 si existe, sino el primero disponible
-                profile_to_use = "Default"
-                if "Default" not in profiles and profiles:
-                    profile_to_use = profiles[0]
-                    logger.info(f"Perfil Default no encontrado, usando: {profile_to_use}")
-                
-                logger.info(f"Usando datos de usuario de Chrome: {chrome_user_data}")
-                logger.info(f"Usando perfil: {profile_to_use}")
-                
-                options.add_argument(f'--user-data-dir={chrome_user_data}')
-                options.add_argument(f'--profile-directory={profile_to_use}')
+            logger.info(f"Usando perfil temporal en: {temp_dir}")
+            options.add_argument(f'--user-data-dir={temp_dir}')
                 
                 # IMPORTANTE: Evitar conflictos si Chrome está abierto
                 #options.add_argument('--remote-debugging-port=9222')
-                
-            else:
-                logger.warning("No se encontró el directorio de datos de Chrome, usando perfil temporal")
-            
+
             # Configuraciones básicas de seguridad (reducidas para permitir más funcionalidades)
             options.add_argument('--no-sandbox')
             options.add_argument('--disable-dev-shm-usage')
@@ -167,7 +152,7 @@ class SafeChromeDriver:
             
             driver = uc.Chrome(
                 options=options,
-                version_main=119,
+                version_main=141,  # Actualizado para coincidir con la versión actual de Chrome
                 headless=False,
                 use_subprocess=True,  # Importante para evitar conflictos con Chrome abierto
                 driver_executable_path=None
@@ -334,8 +319,8 @@ def save_cookies_to_file(driver, filename='cookiesHome.json'):
             formatted_cookies[cookie['name']] = cookie['value']
         
         # Crear directorio si no existe
-        os.makedirs('src/appleEndpoints', exist_ok=True)
-        filepath = f'src/appleEndpoints/{filename}'
+        os.makedirs('botifone/src/appleEndpoints', exist_ok=True)
+        filepath = f'botifone/src/appleEndpoints/{filename}'
         
         with open(filepath, 'w') as f:
             json.dump(formatted_cookies, f, indent=4)
@@ -497,15 +482,15 @@ def save_headers_to_file(driver, filename='headers.json'):
         }
         
         # Crear directorio si no existe
-        os.makedirs('src/appleEndpoints', exist_ok=True)
-        filepath = f'src/appleEndpoints/{filename}'
+        os.makedirs('botifone/src/appleEndpoints', exist_ok=True)
+        filepath = f'botifone/src/appleEndpoints/{filename}'
         
         with open(filepath, 'w') as f:
             json.dump(output_data, f, indent=4)
         
         # También crear un archivo simplificado solo con headers para compatibilidad
         headers_only_file = filename.replace('.json', '_simple.json')
-        headers_only_path = f'src/appleEndpoints/{headers_only_file}'
+        headers_only_path = f'botifone/src/appleEndpoints/{headers_only_file}'
         with open(headers_only_path, 'w') as f:
             json.dump(headers, f, indent=4)
         
@@ -567,7 +552,7 @@ def capture_real_headers_with_cdp(driver):
     
     return None
 
-def main():
+def refreshCookies():
     """Función principal del script"""
     # Activar supresión de errores del destructor
     suppress_chrome_destructor_error()
@@ -576,7 +561,7 @@ def main():
     
     try:
         # Usar el context manager para manejo seguro
-        with SafeChromeDriver(version_main=119) as driver:
+        with SafeChromeDriver(version_main=141) as driver:
             
             # Navegar a la página
             logger.info("Navegando a Apple iPhone...")
@@ -648,4 +633,4 @@ def main():
         logger.info("=== Script finalizado exitosamente ===")
 
 if __name__ == "__main__":
-    main()
+    refreshCookies()

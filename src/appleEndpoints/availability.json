@@ -98,7 +98,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "305-421 0400",
-                                "uuid": "03f19f5f-f922-40a0-9534-a5b07a5f127e",
+                                "uuid": "d198b269-d1d8-4b4c-853d-5d0060eb751d",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -127,8 +127,8 @@
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759534186962,
-                            "dateStamp": "03-Oct-2025",
+                            "lastFetched": 1759572977338,
+                            "dateStamp": "04-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
                             "storePickupMethodByType": {
@@ -138,8 +138,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lon": -80.139364,
-                                        "lat": 25.79102
+                                        "lat": 25.79102,
+                                        "lon": -80.139364
                                     }
                                 }
                             },
@@ -252,7 +252,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "786-9723954",
-                                "uuid": "bd08eecf-26db-4580-87af-3174fc38d18b",
+                                "uuid": "8ca7ac5e-7b3b-4589-8564-1eeb2c87e968",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -281,8 +281,8 @@
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759534186962,
-                            "dateStamp": "03-Oct-2025",
+                            "lastFetched": 1759572977339,
+                            "dateStamp": "04-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
                             "storePickupMethodByType": {
@@ -292,8 +292,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lon": -80.191812,
-                                        "lat": 25.78162
+                                        "lat": 25.78162,
+                                        "lon": -80.191812
                                     }
                                 }
                             },
@@ -406,7 +406,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "786-8434350",
-                                "uuid": "5063f6fe-f829-4935-b79a-c6526712cf48",
+                                "uuid": "6ae4e184-caa9-4707-8cdf-635a67900cbe",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -435,8 +435,8 @@
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759534186962,
-                            "dateStamp": "03-Oct-2025",
+                            "lastFetched": 1759572977339,
+                            "dateStamp": "04-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
                             "storePickupMethodByType": {
@@ -446,8 +446,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lon": -80.1935,
-                                        "lat": 25.7667
+                                        "lat": 25.7667,
+                                        "lon": -80.1935
                                     }
                                 }
                             },
@@ -560,7 +560,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "305-914 9826",
-                                "uuid": "be087bc9-dd83-431a-a69b-b66b627a2aaa",
+                                "uuid": "daa99a45-89f1-451f-9c7a-c1bfd8f313f6",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -589,8 +589,8 @@
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759534186962,
-                            "dateStamp": "03-Oct-2025",
+                            "lastFetched": 1759572977339,
+                            "dateStamp": "04-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
                             "storePickupMethodByType": {
@@ -600,8 +600,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lon": -80.141707,
-                                        "lat": 25.95825
+                                        "lat": 25.95825,
+                                        "lon": -80.141707
                                     }
                                 }
                             },
@@ -714,7 +714,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "305-341 9812",
-                                "uuid": "b3f0c0c9-8c26-4ebc-a246-39468eb75624",
+                                "uuid": "eebb493a-dc52-434a-8d8b-34cddf191ec2",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -743,8 +743,8 @@
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759534186963,
-                            "dateStamp": "03-Oct-2025",
+                            "lastFetched": 1759572977339,
+                            "dateStamp": "04-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
                             "storePickupMethodByType": {
@@ -754,8 +754,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lon": -80.313707,
-                                        "lat": 25.689879
+                                        "lat": 25.689879,
+                                        "lon": -80.313707
                                     }
                                 }
                             },
@@ -872,7 +872,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "305-234 4565",
-                                "uuid": "70dccde4-b784-426f-ae33-6cf979e4d5bc",
+                                "uuid": "df7b1231-2b78-4287-9c19-3fc09e3fd2b3",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -906,8 +906,8 @@
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759534186963,
-                            "dateStamp": "03-Oct-2025",
+                            "lastFetched": 1759572977339,
+                            "dateStamp": "04-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
                             "storePickupMethodByType": {
@@ -917,8 +917,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lon": -80.3381459437702,
-                                        "lat": 25.6437195637543
+                                        "lat": 25.6437195637543,
+                                        "lon": -80.3381459437702
                                     }
                                 }
                             },
@@ -1031,7 +1031,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "954-331 4501",
-                                "uuid": "b033e16e-f2ed-4074-bb18-2c3aca3fa881",
+                                "uuid": "23dc99d3-b221-47d3-b2f3-3adf6b53827b",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -1060,8 +1060,8 @@
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759534186963,
-                            "dateStamp": "03-Oct-2025",
+                            "lastFetched": 1759572977339,
+                            "dateStamp": "04-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
                             "storePickupMethodByType": {
@@ -1071,8 +1071,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lon": -80.11439550438627,
-                                        "lat": 26.13667461979732
+                                        "lat": 26.13667461979732,
+                                        "lon": -80.11439550438627
                                     }
                                 }
                             },
@@ -1189,7 +1189,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "561-226 0270",
-                                "uuid": "c5af8f00-1921-42ff-bdb0-8af5e1305b3b",
+                                "uuid": "e9ea32f6-3627-49e1-baf9-079cca085446",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -1223,8 +1223,8 @@
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759534186963,
-                            "dateStamp": "03-Oct-2025",
+                            "lastFetched": 1759572977339,
+                            "dateStamp": "04-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
                             "storePickupMethodByType": {
@@ -1234,8 +1234,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lon": -80.13323,
-                                        "lat": 26.36569
+                                        "lat": 26.36569,
+                                        "lon": -80.13323
                                     }
                                 }
                             },
@@ -1348,7 +1348,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "561-273 2940",
-                                "uuid": "fed758b1-33b5-4e2c-a556-a630d7e7d469",
+                                "uuid": "adbea88e-6bf4-4291-8b2e-3ee782664715",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -1377,8 +1377,8 @@
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759534186963,
-                            "dateStamp": "03-Oct-2025",
+                            "lastFetched": 1759572977339,
+                            "dateStamp": "04-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
                             "storePickupMethodByType": {
@@ -1388,8 +1388,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lon": -80.208856,
-                                        "lat": 26.647028
+                                        "lat": 26.647028,
+                                        "lon": -80.208856
                                     }
                                 }
                             },
@@ -1502,7 +1502,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "561-273 2160",
-                                "uuid": "d2ec62d5-1006-4fb4-a547-dea2c6d43870",
+                                "uuid": "3a5926ce-aa18-4eb9-acca-81638e541d91",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -1531,8 +1531,8 @@
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759534186963,
-                            "dateStamp": "03-Oct-2025",
+                            "lastFetched": 1759572977340,
+                            "dateStamp": "04-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
                             "storePickupMethodByType": {
@@ -1542,8 +1542,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lon": -80.0848,
-                                        "lat": 26.84865
+                                        "lat": 26.84865,
+                                        "lon": -80.0848
                                     }
                                 }
                             },
@@ -1656,7 +1656,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "239-254 4240",
-                                "uuid": "a805185a-6dc4-426f-8f7a-3c656e73f9e2",
+                                "uuid": "eda55731-4196-43b9-9d6b-3c802116b182",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -1685,8 +1685,8 @@
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759534186963,
-                            "dateStamp": "03-Oct-2025",
+                            "lastFetched": 1759572977340,
+                            "dateStamp": "04-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
                             "storePickupMethodByType": {
@@ -1696,8 +1696,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lon": -81.8017,
-                                        "lat": 26.2132
+                                        "lat": 26.2132,
+                                        "lon": -81.8017
                                     }
                                 }
                             },
@@ -1810,7 +1810,7 @@
                                 "state": "FL",
                                 "countryCode": "US",
                                 "daytimePhone": "239-949 8860",
-                                "uuid": "02192e6d-034e-4eb2-be97-0eabf93effcf",
+                                "uuid": "46f666d5-69f6-45ca-b3c1-ae234da57b06",
                                 "languageCode": "US-EN",
                                 "type": "SHIPPING",
                                 "primaryAddress": false,
@@ -1839,8 +1839,8 @@
                             "timezone": "America/New_York",
                             "storeIsActive": true,
                             "lastUpdated": 0.0,
-                            "lastFetched": 1759534186963,
-                            "dateStamp": "03-Oct-2025",
+                            "lastFetched": 1759572977340,
+                            "dateStamp": "04-Oct-2025",
                             "distanceSeparator": ".",
                             "storeHolidayLookAheadWindow": 7,
                             "storePickupMethodByType": {
@@ -1850,8 +1850,8 @@
                                         "APU"
                                     ],
                                     "typeCoordinate": {
-                                        "lon": -81.8066356980691,
-                                        "lat": 26.4021005908209
+                                        "lat": 26.4021005908209,
+                                        "lon": -81.8066356980691
                                     }
                                 }
                             },
