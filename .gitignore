@@ -32,7 +32,14 @@ Thumbs.db
 
 # Project specific
 src/appleEndpoints/cookiesHome.json
+src/appleEndpoints/cookiesHomeSend.json
+src/appleEndpoints/headers.json
+src/appleEndpoints/headers_simple.json
+src/appleEndpoints/headersSend.json
 src/src/appleEndpoints/cookiesHome.json
+chrome_profile/
+*.png
 .clasp.json
+.claude/
 **/credentials.*
 **/config.*
