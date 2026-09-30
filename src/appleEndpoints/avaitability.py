@@ -9,24 +9,25 @@ from botifone.src.appleEndpoints.simple_navigator_final import refreshCookies
 def get_cookies():
     with open(r"botifone\src\appleEndpoints\cookiesHome.json", 'r') as f:
         coookies = json.load(f)
-    cookies = {
-    'as_sfa': coookies['as_sfa'],
+    # Cookies fijas + cookies capturadas del navegador (se omiten las que Apple no haya generado)
+    fixed_cookies = {
     'dssf': '1',
-    'dssid2': coookies['dssid2'],
-    'as_dc': coookies['as_dc'],
-    's_fid': coookies['s_fid'],
-    's_vi': coookies['s_vi'],
     'sh_spksy': '.',
-    'shld_bt_ck': coookies['shld_bt_ck'],
     'as_uct': '0',
-    'as_pcts': coookies['as_pcts'],
     'geo': 'PE',
     's_cc': 'true',
-    'as_rumid': coookies['as_rumid'],
-    'as_atb': coookies['as_atb'],
-    'shld_bt_m': coookies['shld_bt_m'],
-    #'s_sq': coookies['s_sq'],
-              }
+    }
+    browser_cookie_names = ['as_sfa', 'dssid2', 'as_dc', 's_fid', 's_vi', 'shld_bt_ck',
+                            'as_pcts', 'as_rumid', 'as_atb', 'shld_bt_m']  # 's_sq'
+    cookies = dict(fixed_cookies)
+    missing = []
+    for name in browser_cookie_names:
+        if name in coookies:
+            cookies[name] = coookies[name]
+        else:
+            missing.append(name)
+    if missing:
+        print(f"AVISO: Cookies no encontradas en cookiesHome.json (se omiten): {missing}")
     with open(r'botifone\src\appleEndpoints\cookiesHomeSend.json', 'w') as f:
         json.dump(cookies, f, indent=4)
     return cookies
