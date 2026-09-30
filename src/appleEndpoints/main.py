@@ -9,6 +9,8 @@
 #si la peticion falla y es 541, volver a obtener cookies y headers con selenium y repetir el proceso
 
 import json
+import random
+import time
 import requests
 from botifone.src.appleEndpoints.data_processing import check_availability
 from botifone.src.appleEndpoints.avaitability import request_available_iphones,are_new_cookies_expired
@@ -43,6 +45,7 @@ def get_available_iphones_and_update_sheets():
     
     # Get initial cookies and headers
     refreshCookies()
+    refreshing_times=0
     while True:
         for product, zip_code in combinations:
             product_code = product['code']
@@ -52,6 +55,7 @@ def get_available_iphones_and_update_sheets():
             response_data = request_available_iphones(product_code, zip_code)
             
             if response_data:
+                refreshing_times=0
                 # Check store availability
                 available_stores = check_availability(
                     content=response_data,
@@ -101,11 +105,19 @@ def get_available_iphones_and_update_sheets():
                 print(f"Request failed for {product['name']} in {zip_code}. Getting new cookies and headers...")
                 # Record the unavailability even when request fails
                 print("Refreshing cookies and headers...")
+                #wait random time before refreshing
+                time.sleep(random.randint(10,30))
                 refreshCookies()  # Refresh cookies and headers
+                time.sleep(2)  # Wait a bit before retrying
+                refreshing_times+=1
+                print(refreshing_times)
                 print("Verifying if new cookies are valid...")
-                if are_new_cookies_expired():
-                    print("New cookies are expired, refreshing again...")
-                    return 0
+                if refreshing_times>=4:
+                    print("Max retries reached. Exiting...")
+                    return -1
+                # if are_new_cookies_expired():
+                #     print("New cookies are expired, refreshing again...")
+                #     return 0
                 else:
                     print("Retrying the request...")
 
