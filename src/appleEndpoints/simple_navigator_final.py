@@ -87,12 +87,34 @@ def suppress_chrome_destructor_error():
     
     builtins.print = patched_print
 
+def get_installed_chrome_major():
+    """
+    Obtener la versión mayor de Chrome instalada leyendo el registro de Windows.
+    Retorna None si no se puede detectar (undetected_chromedriver la detectará por su cuenta).
+    """
+    try:
+        import winreg
+    except ImportError:
+        return None
+
+    for hive in (winreg.HKEY_CURRENT_USER, winreg.HKEY_LOCAL_MACHINE):
+        try:
+            with winreg.OpenKey(hive, r"Software\Google\Chrome\BLBeacon") as key:
+                version, _ = winreg.QueryValueEx(key, "version")
+                return int(version.split(".")[0])
+        except (OSError, ValueError):
+            continue
+
+    logger.warning("No se pudo detectar la versión de Chrome desde el registro")
+    return None
+
 class SafeChromeDriver:
     """Wrapper para undetected_chromedriver con manejo seguro del cierre"""
-    
-    def __init__(self, version_main=119):
+
+    def __init__(self, version_main=None):
         self.driver = None
-        self.version_main = version_main
+        # Si no se especifica, usar la versión de Chrome instalada para evitar desajustes con ChromeDriver
+        self.version_main = version_main or get_installed_chrome_major()
         self._closed = False
         # Registro de procesos para limpieza manual si es necesario
         self._processes = []
@@ -134,7 +156,8 @@ class SafeChromeDriver:
             options.add_argument('--disable-features=VizDisplayCompositor')
             
             # Configurar el User-Agent para que coincida con el navegador real
-            options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36')
+            if self.version_main:
+                options.add_argument(f'--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{self.version_main}.0.0.0 Safari/537.36')
             options.add_argument('--no-sandbox')
             options.add_argument('--disable-dev-shm-usage')
             options.add_argument('--disable-gpu')
@@ -152,7 +175,7 @@ class SafeChromeDriver:
             
             driver = uc.Chrome(
                 options=options,
-                version_main=141,  # Actualizado para coincidir con la versión actual de Chrome
+                version_main=self.version_main,  # Detectada automáticamente desde la instalación de Chrome
                 headless=False,
                 use_subprocess=True,  # Importante para evitar conflictos con Chrome abierto
                 driver_executable_path=None
@@ -445,7 +468,7 @@ def save_headers_to_file(driver, filename='headers.json'):
         # Extraer versión de Chrome del User-Agent
         import re
         chrome_version_match = re.search(r'Chrome/(\d+)\.(\d+)\.(\d+)\.(\d+)', browser_info['userAgent'])
-        chrome_version = chrome_version_match.group(1) if chrome_version_match else '141'
+        chrome_version = chrome_version_match.group(1) if chrome_version_match else str(get_installed_chrome_major() or '')
         
         # Generar headers basados en información real del navegador
         headers = {
@@ -557,11 +580,11 @@ def refreshCookies():
     # Activar supresión de errores del destructor
     suppress_chrome_destructor_error()
     
-    logger.info("=== Iniciando navegador para Chrome versión 134 ===")
-    
+    logger.info("=== Iniciando navegador ===")
+
     try:
-        # Usar el context manager para manejo seguro
-        with SafeChromeDriver(version_main=141) as driver:
+        # Usar el context manager para manejo seguro (versión de Chrome detectada automáticamente)
+        with SafeChromeDriver() as driver:
             
             # Navegar a la página
             logger.info("Navegando a Apple iPhone...")
